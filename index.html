@@ -81,21 +81,24 @@
     <div id="about">
         <div class="container">
             <div class="row">
+                <div class="col-md-12 center">
+                  <h2 class="heading">About Me</h2><br/>
+                </div>
                 <div class="col-md-4">
-                    <div class="row">
-                      <div class="col-lg-12">
-                        <h2 class="heading">About Me</h2><br/>
-                      </div>
-                      <div class="col-lg-12">
-                        <img src="images/profile-image.jpg" class="img img-circle" width="200" height="200"/>
-                      </div>
-                    </div>
+                    <img src="images/profile-image.jpg" class="img img-circle" width="300" height="300"/>
+                    <br/>
+                    <br/>
                 </div>
                 <div class="col-md-8">
                     <p>
-                      I have been developing software for Web and Android for 5 years. I work with Python, Nodejs & Native Android SDK.
-                      Currently I am working in <a href="http://zssbd.com/">ZS Solutions Ltd</a> as <b>Senior Software Engineer</b>
-                      My primary responsibility is to write modular & clean code following Scrum.
+                      I have been developing software for Web and Android for 7 years. I work with Python, Nodejs & Native Android SDK.
+                      Currently I am working in <a href="http://astro.com.my/" target="_blank">Astro</a> as <b>Senior Associate, Software Engineer</b>
+                      My primary responsibility is to develop & manage microservices.
+                    </p>
+                    <br/>
+                    <p>
+                      My expertise in Backend ( Nodejs, Python) , Frontend ( React, Redux, typescript ) & Mobile platform (Android) allows me to analyse architectural trade offs properly. I can empathize with developers
+                      across platforms and understand the bottlenecks quickly.                
                     </p>
                     <br/>
                     <p>
@@ -119,8 +122,87 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="June 2016 – Present">
-                <h3><a href="http://zssbd.com/">ZS Solutions Ltd.</a></h3>
+
+              <div data-date="February 2020 – Present">
+                <h3><a href="https://www.astro.com.my/" target="_blank">Astro</a></h3>
+                <h4>Senior Associate, Software Engineer</h4>
+                <p>
+                  I am actively developing & managing micro-services. Currently I am Working in both frontnend and backend as well as maintaining cloud resources.                  
+                </p>
+                <br/>
+                <p>
+                  I am a core member of <b>ACM (<a href="https://www.astro.com.my/" target="_blank">astro.com.my</a>)</b> under <b>Digital Ecosystem (D5)</b>. which manages Homepage, ACM Shop, ACM Rewards & Promotions, ACM Content guide.
+                  With 75% market penetration Astro is the largest payTV network in Malaysia. D5 manages the digital footprint of the company.
+                </p>
+                <br/>
+                <p>
+                  ACM is the frontline for entire Astro. Hence making sure our resources and services are secure and performant is a top priority and under my jurisdiction.
+                  Challenges include making sure we can accommodate campaign traffic, allow users to redeem during flash sale.
+                </p>
+                <br/>
+                <p>
+                  I ensured 100% deliveries on time and without any post deployment hotfix. In ACM Shop, the lead capture was improved by 48.66% mainly by 
+                  designing fallback approaches and effective monitoring. Area coverage was a major concern for lead capture, I helped design the system in a way 
+                  so that users find it more flexible. It helped reduce the churn rate by 5%.                             
+                </p>
+                <br/>
+                <p>
+                  Each API latency must be < 500 ms for seamless customer experience in a mobile first world. I ensured the SLA is met by monitoring the latency
+                  across services and caching the responses. Warming up lmabda is another approach for ensuring serverless services are active.
+                </p>
+                <br/>
+                <p>
+                  Frontend performance is of paramount importance. Instead of bundling entire components, loading by chuks helpe reduced the TTI significantly.
+                  It cut the TTI and improved the score by 2 sec. 
+                </p>
+                <br/>
+                <p>
+                  Frontend errors are hard to catch and resolve. I helped ensure 65% such errors are reported and resolved within 2 weeks. Specially the mobile devices with older
+                  browsers as well as in app browsers cause incompatibility issues which is hard to track. So I meticulously went through each report 
+                  and prioratize accordingly. While adding polyfills can solve it but it causes performance penalty. So I had to carefully balance the
+                  tradeoffs.
+                </p>
+                <br/>
+                <p>
+                  Frontend errors are hard to catch and resolve. I helped ensure 65% such errors are reported and resolved within 2 weeks. Specially the mobile devices with older
+                  browsers as well as in app browsers cause incompatibility issues which is hard to track. So I meticulously went through each report 
+                  and prioratize accordingly. While adding polyfills can solve it but it causes performance penalty. So I had to carefully balance the
+                  tradeoffs.
+                </p>
+                <br/>
+                <p>
+                  21% cost reduction was possible to due scheduled downsizing of non-critical resources. Also properly collaborating with the resource owner, I managed to 
+                  decomission redundant services / helped migrate them to a shared resource model instead of dedicated one.   
+                </p>
+                <br/>
+                <p>
+                  Existing and legacy code coverage was improved to 99.63% including the unit tests and integration tests.  
+                </p>
+                <br/>
+                <p>
+                  Debugging a service through multiple lambda logs is quite time consuming. So I helped wrote a tool to span timeline of a request across multiple 
+                  lambda functions. <a>Astro-Dissection</a>
+                </p>
+                <br/>
+                <p>
+                  I co-ordinate backend sessions within Digital ecosystem. We present our architecture and discuss on the tradeoffs and how to improve the reliability and security of the services.                  
+                </p>
+                <br/>
+                <p>
+                  Knowledge gathered:
+                </p>
+                <ul>
+                  <li>Typescript</li>
+                  <li>Nodejs</li>
+                  <li>Serverless</li>
+                  <li>React</li>
+                  <li>Redux</li>
+                  <li>AWS</li>
+                </ul>
+            </div>
+
+            <div data-date="June 2016 – December 2019">
+                <h3><a href="http://zssbd.com/" target="_blank">ZS Solutions Ltd.</a></h3>
                 <h4>Senior Software Engineer</h4>
                 <p>
                   Prime responsibilities include architecting solution and developing them.
@@ -159,7 +241,7 @@
             </div>
 
             <div data-date="October 2015 – May 2016">
-                <h3><a href="http://omexcourier.com/">Omex Courier & Logistics Ltd.</a></h3>
+                <h3><a href="http://omexcourier.com/" target="_blank">Omex Courier & Logistics Ltd.</a></h3>
                 <h4>Software Engineer</h4>
                 <p>
                   Key responsibilities were developing backend services and API. I have automated the deployment with ansible and docker. Bundle scanning process was a crucial part of the system.
@@ -285,6 +367,34 @@
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+                <div id="lambdaDissectionProject" class="project shadhow-large">
+                  <div class="project-image">
+                    <img src="images/python-project.svg" />                                                  
+                  </div>
+                  <div class="project-info">
+                    <h3>Lambda Dissection</h3>
+                    <p>
+                      Category: <b>Application</b>
+                    </p>
+                    <p>
+                      if a micro-service spans across multiple lambda functions, each lambda has it's own request id. So to trace through the entire lifecycle
+                      of a particular resource, I made this project. It takes identifier of the resource and traces across dependent lambdas. We can derive a timeline with individual log data. So this project provides a consolidated view of a resource. Future plan is to generalize it as a GraphQL engine.                     
+                    </p>
+                    <p>
+                      The software stack contains: <b>Python, boto3, AWS CLI</b>
+                    </p>
+                    <div class="row">
+                      <div class="col-sm-3">
+                        <a href="images/lambda-dissection/Lead-Lifecycle-Explorer-1.png" target="_blank"><img class="img" height="50" width="100" src="images/lambda-dissection/Lead-Lifecycle-Explorer-1.png"/></a>
+                      </div>
+                      <!-- <div class="col-sm-1"></div> -->
+                      <div class="col-sm-3">
+                        <a href="images/lambda-dissection/Lead-Lifecycle-Explorer-2.png" target="_blank"><img class="img" height="50" width="100" src="images/lambda-dissection/Lead-Lifecycle-Explorer-2.png"/></a>
+                      </div>
+                    </div>
+                    <!-- <a href="https://drive.google.com/drive/folders/1jixJyd-vSn_LMyLA_get_4c4Xe8kkPe9?usp=sharing">View Project</a> -->
+                  </div>
+                </div>
                 <div class="project shadow-large">
                     <div class="project-image">
                         <img src="images/python-project.svg" />
@@ -695,13 +805,13 @@
                   <h3 class="title">Office Address</h3>
                 </div>
                 <div class="col-md-12">
-                  ZS Solutions Ltd, Apartment B5, Navana Cordelia, House# 61, Road# 17, Block# C, Banani , Dhaka, Bangladesh.
+                  Astro, AABC, Lebuhraya Puchong-Sg. Besi, Bukit Jalil, Kuala Lumpur, 57000, Malaysia
                 </div>
                 <div class="col-md-12">
-                  Email: <a href="mailto://maksud.alam@iappdragon.com">maksud.alam@iappdragon.com</a>
+                  Email: <a href="mailto://mohammad-maksud-alam_chowdhury@astro.com.my">mohammad-maksud-alam_chowdhury@astro.com.my</a>
                 </div>
                 <div class="col-md-12">
-                  Phone: +880-1520080138
+                  Phone: +6011-6450 8952
                 </div>
               </div>
             </div>
@@ -710,13 +820,12 @@
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
-
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 copyright">
                     <p>
-                        Copyright &copy; 2017 Md. Maksud Alam Chowdhury
+                        Copyright &copy; 2021 Md. Maksud Alam Chowdhury
                     </p>
                 </div>
                 <div class="col-sm-2 top">
@@ -747,6 +856,17 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/scripts.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P3KN5CXLE5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-P3KN5CXLE5');
+    </script>
 </body>
 
 </html>
